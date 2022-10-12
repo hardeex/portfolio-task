@@ -1,0 +1,191 @@
+body{
+    background: linear-gradient(58deg, rgb(62, 62, 62), rgb(24, 24, 24));
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    /* background-color: rgb(12, 12, 12); */
+    /* padding: 0 5%; */
+    padding: 15px 68px;
+    /* position: absolute; */
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+
+
+nav div ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav div ul li{
+    list-style-type: none;
+    margin: 0 1rem;
+    font-size: 1.25rem;
+}
+
+#hero-image{
+    background-image: url(../Image/hero_image.jpg);
+    height: 768px; 
+    background-position: center;
+    background-size: cover; 
+}
+
+#hero-image-content{
+    background-color: rgba(14, 11, 11, 0.678);
+    width: 600px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 220px;
+}
+
+#hero-image-content h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0;
+}
+
+#hero-image-content p{
+    color: white;
+    font-size: 12x;
+    margin-bottom: 2rem;
+}
+
+#hero-image-content a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(24, 15, 15);
+    background-color:  rgb(238, 164, 80);
+    padding: 5px 15px;
+    border-radius: 8px;
+    
+}
+
+
+#hero-image-content a:hover{
+    background-color: rgb(233, 134, 22);
+}
+
+section h1{
+    font-size: 4rem;
+    color: rgb(233, 164, 80);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.feedback-container ul{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 0;
+    gap: 1.5rem;
+    
+}
+
+.feedback-container img{
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+   }
+
+.feedback{
+text-align: center;
+background-color: rgb(228, 206, 182);
+border-radius: 6px;
+overflow: hidden;
+padding: 1.2rem;
+}
+
+.feedback a, 
+.more a{
+    background-color: rgb(238, 150, 97);
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+}
+
+.feedback a:hover,
+.more a:hover{
+    background-color: rgb(233, 134, 22);
+}
+
+#about-me-container{
+    display: flex;
+    /* width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; */
+    margin: 2rem;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgb(42, 42, 42);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+    margin: 1.5rem 0;
+    overflow: hidden;
+    
+}
+
+#author-image{  
+    height: 500px;
+    width: 500px;
+    border-radius: 6px;
+    object-fit: cover;
+   
+}
+
+#about-me-text{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(255, 255, 255); */
+    
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: left;
+    padding: 0 1.2rem;
+   border-radius: 6px;
+   justify-content: center;
+   line-height: 2.3rem;
+        
+}
+
+#about-me-text h2{
+    text-align:  center;
+
+}
+
+footer{
+    background-color: rgb(243, 229, 229);
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    padding: 2rem 0 2rem 0;
+}
+
+footer a img{
+    width: 40px;
+    height: 40px;
+    margin-right: 0.4rem;
+}
+
+#social-media-images{
+    margin-right: 1rem;
+}
+
